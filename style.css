@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  overflow: hidden;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+}
+
+canvas {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+}
+
+.center-box {
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background: rgba(0,0,0,0.4);
+  padding: 40px 60px;
+  border-radius: 20px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 40px rgba(255,255,255,0.2);
+}
+
+.year-img {
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  text-shadow: 0 0 15px gold;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  opacity: 0.9;
+  margin: 6px 0;
+}
+
+.emoji-row {
+  font-size: 28px;
+  margin-top: 15px;
+}
